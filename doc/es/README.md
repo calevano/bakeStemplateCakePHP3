@@ -17,6 +17,49 @@ Tambien puedes crearlo con este simple comando
 
 2.- Una vez creado el archivo "Stemplate", copia el contenido de mi archivo "StemplateTask.php" en el tuyo.
 
+**Quedara de la siguiente forma**
+```php
+<?php
+namespace App\Shell\Task;
+
+//use Cake\Console\Shell;
+use Bake\Shell\Task\SimpleBakeTask;
+
+/**
+ * Stemplate shell task.
+ */
+class StemplateTask extends SimpleBakeTask
+{
+
+    /**
+     * main() method.
+     *
+     * @return bool|int Success or error code.
+     */
+
+    public $pathFragment = 'Template/';
+
+    public function name()
+    {
+        return 'stemplate';
+    }
+
+    public function fileName($name)
+    {
+        return $name . '.ctp';
+    }
+
+    public function template()
+    {
+        return 'stemplate';
+    }
+
+//    public function main()
+//    {
+//    }
+}
+```
+
 3.- Ahora viene lo más facil y divertido, creamos una carpeta dentro de "src/Template" llamado "Bake"
 
 4.- Dentro de la carpeta "Bake" que hemos creado dentro de "src/Template", creamos un archivo con el nombre que le hemos puesto al "Task", este archivo debe estár en letras minusculas con extension ".ctp" (en este caso sería "stemplate.ctp").
