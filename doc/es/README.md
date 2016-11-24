@@ -115,4 +115,6 @@ Yo cree uno de acuerdo a mi plantilla que uso para mi proyecto, tú puedes modif
 "bin/cake bake stemplate Index"
 ```
 
+* Dentro de nuestro "src/Template" veremos que se genero una carpeta o archivo mediante el comando que hemos tipeado
+
 Más referencias puedes encontrarla aquí: [http://book.cakephp.org/3.0/en/bake/development.html](http://book.cakephp.org/3.0/en/bake/development.html)

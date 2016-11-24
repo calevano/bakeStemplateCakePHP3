@@ -116,4 +116,6 @@ I create one according to my template that I use for my project, you can modify 
 "bin/cake bake stemplate Index"
 ```
 
+* Within our "src/Template" we will see that a folder or file was generated using the command that we have typed
+
 More references you can find it here: [http://book.cakephp.org/3.0/en/bake/development.html](http://book.cakephp.org/3.0/en/bake/development.html)
