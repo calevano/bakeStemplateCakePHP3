@@ -1,4 +1,4 @@
-# changeSecuritySaltCakePHP3
+# bakeStemplateCakePHP3
 Crear plantillas que no dependen de un controlador y menos de un modelo
 
 El crear una plantilla que no tenga relación con un controlador o modelo suele ser común, por ejemplo crear una plantilla " Bienvenido " donde mostrarás un saludo o mostrarás unas instrucciones en la página.

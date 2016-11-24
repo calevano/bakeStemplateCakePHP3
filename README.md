@@ -1,4 +1,4 @@
-# changeSecuritySaltCakePHP3
+# bakeStemplateCakePHP3
 Create templates that do not depend on a controller and less than a model
 
 Creating a template that is not related to a driver or model is usually common, for example create a "Welcome" template where you will show a greeting or show instructions on the page.
